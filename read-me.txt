@@ -1,4 +1,4 @@
-05/09/2025 - praticando para aperfeicoar minhas tecnicas com git. 
+05/09/2025 - praticando para aperfeiçoar minhas tecnicas com git. 
 
 Olá, este diretório é dedicado as aulas de Git, coordenado pelo professor Bruno Costa, faculdade laboro.
 
@@ -27,6 +27,10 @@ Trabalhando com repositório remoto
     git remote origin -URL do repositório remoto-: adiciona um repositório remoto (geralmente chamado de origin)
     git push origin -nome_da_brach-: Envia suas alterações locais para o repositório remoto. (brach = ramificação)
     git pull origin -nome_da_branch-: Busca e mescla as alterações do repositório remoto para seu repositório local.    
+
+Histórico de commits
+    
+    git log: Exibe o histórico
 
 Fluxograma Git + GitHub ASCII
 
