@@ -22,6 +22,12 @@ Histórico de commits
 
     git log: Exibe o histórico de commits de repositório.
 
+Trabalhando com repositório remoto
+
+    git remote origin -URL do repositório remoto-: adiciona um repositório remoto (geralmente chamado de origin)
+    git push origin -nome_da_brach-: Envia suas alterações locais para o repositório remoto. (brach = ramificação)
+    git pull origin -nome_da_branch-: Busca e mescla as alterações do repositório remoto para seu repositório local.    
+
 Fluxograma Git + GitHub ASCII
 
       
