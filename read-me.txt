@@ -18,4 +18,11 @@ Gerenciando alterações
     git add -arquivo-: Adiciona alterações de arquivos para a área de preparação (stage) para o próximo commit. Use git add . para adicionar todos os arquivos modificados.
     git commit -m "Mensagem descritica do commit": Confirma as alterações preparadas no repositório local, com uma mensagem que descreve o que foi feito.
 
+Histórico de commits
+
+    git log: Exibe o histórico de commits de repositório.
+
+
+
+
 
