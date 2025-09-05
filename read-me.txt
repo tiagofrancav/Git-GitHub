@@ -30,7 +30,8 @@ Trabalhando com repositório remoto
 
 Histórico de commits
     
-    git log: Exibe o histórico
+    git log: Exibe o histórico completo usuario, data...
+    git log --oneline: Exibe a forma simplificada com o nome e o codigo do commit somente
 
 Fluxograma Git + GitHub ASCII
 
