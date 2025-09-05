@@ -22,7 +22,55 @@ Histórico de commits
 
     git log: Exibe o histórico de commits de repositório.
 
+Fluxograma Git + GitHub ASCII
 
+      
+ [Usuário 1] ---> [ Computador 1 ] ---> [ Repositório Local 1 ]
+                                                               \
+                                                                \
+ [Usuário 2] ---> [ Computador 2 ] ---> [ Repositório Local 2 ] ---> [ Repositório Remoto ]
+                                                                /        (GitHub)
+                                                               /
+ [Usuário 3] ---> [ Computador 3 ] ---> [ Repositório Local 3 ]
+                                                (git)
+
+
+                          (push) -------------->
+                          <-------------- (pull)
+
+Explicação
+
+Usuário (desenvolvedor)
+
+    Cada pessoa desenvolvedora escreve e edita o código no seu computador local.
+    Essas mudanças ficam primeiro só na máquina dela.
+
+Computador → Repositório Local
+
+    O computador tem um repositório Git local (a pasta do projeto iniciada com git init ou clonada do GitHub).
+    Ali dentro o desenvolvedor cria commits, que são como “fotos” do estado do código ao longo do tempo.
+
+Repositórios Locais → Repositório Remoto (GitHub)
+
+    Quando querem compartilhar as mudanças com o time, os devs enviam (com git push) suas alterações para o repositório remoto no GitHub.
+    Esse remoto funciona como a versão centralizada do projeto.
+
+Sincronização entre Devs (push/pull)
+    
+    Se outro desenvolvedor já fez mudanças no GitHub, o colega precisa trazer essas alterações para o seu repositório local usando git pull.
+    Assim todos ficam trabalhando sempre na versão mais atualizada.
+
+Ciclo contínuo
+    
+    O processo se repete: cada dev altera → commita → faz push → outros dão pull → continuam desenvolvendo.
+    Isso garante colaboração, histórico de alterações e segurança no código.
+
+Resumindo:
+
+Local = onde o dev trabalha e guarda sua cópia.
+Remoto (GitHub) = ponto central onde todos compartilham e sincronizam o código.
+Push = envia alterações para o remoto.
+Pull = puxa alterações do remoto.
 
 
 
