@@ -6,3 +6,9 @@ Configuração incial
    
     git config --global user.name "Seu nome": Define o nome do usuário que fará os commints.
     git config --global user.email "seuemail@exemplo.com": Define o e-mail associado aos commits.
+
+Iniciando um repositório
+
+    git init: Cria um novo repositório git vazio diretório atual.
+    git clone -URL do repositório-: Baixa uma cópia de um repositório git existente para o seu computador.
+
