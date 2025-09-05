@@ -1,6 +1,6 @@
 05/09/2025 - praticando para aperfeicoar minhas tecnicas com git. 
 
-Oi, este diretório é dedicado as aulas de Git, coordenado pelo professor Bruno Costa, faculdade laboro.
+Olá, este diretório é dedicado as aulas de Git, coordenado pelo professor Bruno Costa, faculdade laboro.
 
 Configuração incial
    
@@ -11,4 +11,11 @@ Iniciando um repositório
 
     git init: Cria um novo repositório git vazio diretório atual.
     git clone -URL do repositório-: Baixa uma cópia de um repositório git existente para o seu computador.
+
+Gerenciando alterações
+
+    git status: Mostra o estado atual do repositório, incluindo arquivos modificados
+    git add -arquivo-: Adiciona alterações de arquivos para a área de preparação (stage) para o próximo commit. Use git add . para adicionar todos os arquivos modificados.
+    git commit -m "Mensagem descritica do commit": Confirma as alterações preparadas no repositório local, com uma mensagem que descreve o que foi feito.
+
 
