@@ -24,7 +24,8 @@ Histórico de commits
 
 Trabalhando com repositório remoto
 
-    git remote origin -URL do repositório remoto-: adiciona um repositório remoto (geralmente chamado de origin)
+    git add remote origin -URL do repositório remoto-: adiciona um repositório remoto (geralmente chamado de origin)
+        git remote -v: Verifica se houve a conexão
     git push origin -nome_da_brach-: Envia suas alterações locais para o repositório remoto. (brach = ramificação)
     git pull origin -nome_da_branch-: Busca e mescla as alterações do repositório remoto para seu repositório local.    
 
