@@ -1,0 +1,3 @@
+05/09/2025 - praticando para aperfeicoar minhas tecnicas com git. 
+
+Oi, este diretório é dedicado as aulas de Git, coordenado pelo professor Bruno Costa, faculdade laboro.
