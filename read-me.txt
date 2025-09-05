@@ -82,7 +82,7 @@ Resumindo:
 Local = onde o dev trabalha e guarda sua cópia.
 Remoto (GitHub) = ponto central onde todos compartilham e sincronizam o código.
 Push = envia alterações para o remoto.
-Pull = puxa alterações do remoto.
+Pull ou fetch = puxa alterações do remoto.
 
 
 
