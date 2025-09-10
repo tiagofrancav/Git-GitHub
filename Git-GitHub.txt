@@ -23,11 +23,11 @@ Histórico de commits
     git log: Exibe o histórico de commits de repositório.
 
 Trabalhando com repositório remoto
-
-    git add remote origin: adiciona um repositório remoto (geralmente chamado de origin)
+    git remote add "origin = apelido pra evitar de colocar toda vez aquele link extenso" url(do repositorio) = pode ser qualquer coisa, mas pra seguir o padrao é origin: adiciona um repositório remoto (geralmente chamado de origin)
         git remote -v: Verifica se houve a conexão
-    git push origin -nome_da_brach- -u (master ou main, geralmente é master): Envia suas alterações locais para o repositório remoto. (branch = ramificação)
-    git pull origin -nome_da_branch- (master ou main, geralmente é master): Busca e mescla as alterações do repositório remoto para seu repositório local.    
+
+    git push origin master = para enviar os arquivos do local para o remoto
+    git fetch origin master = para enviar os arquivos do remoto para o local
 
 Histórico de commits
     
