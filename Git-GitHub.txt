@@ -18,16 +18,13 @@ Gerenciando alterações
     git add .: Adiciona alterações de arquivos para a área de preparação (stage) para o próximo commit. Use git add . para adicionar todos os arquivos modificados.
     git commit -m "Mensagem descritica do commit": Confirma as alterações preparadas no repositório local, com uma mensagem que descreve o que foi feito.
 
-Histórico de commits
-
-    git log: Exibe o histórico de commits de repositório.
 
 Trabalhando com repositório remoto
     git remote add "origin = apelido pra evitar de colocar toda vez aquele link extenso" url(do repositorio) = pode ser qualquer coisa, mas pra seguir o padrao é origin: adiciona um repositório remoto (geralmente chamado de origin)
         git remote -v: Verifica se houve a conexão
 
     git push origin master = para enviar os arquivos do local para o remoto
-    git fetch origin master = para enviar os arquivos do remoto para o local
+    git pull origin master = para enviar os arquivos do remoto para o local
 
 Histórico de commits
     
